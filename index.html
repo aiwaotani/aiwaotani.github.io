@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIWA OTANI PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="img/icon-img.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Montserrat:ital,wght@0,400;0,500;1,600&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-body header-left">
+                <h1 class="header-icon">
+                    <a class="header-icon-link" href="index.html">
+                        <img src="img/logo.svg" alt="" width="50" />
+                    </a>
+                </h1>
+            </div>
+            <div class="header-body header-right">
+                <nav class="header-nav">
+                    <ul class="header-nav-lists is-desktop">
+                        <li class="header-nav-list"><a class="header-nav-link" href="index.html"><span>WORKS</span> </a>
+                        </li>
+                        <li class="header-nav-list"><a class="header-nav-link" href="about.html"><span>ABOUT
+                                    ME</span></a></li>
+                    </ul>
+                </nav>
+                <button onclick="toggleMenu()" class="menu-btn">
+                    <div class="menu-btn-outer">
+                        <div class="menu-btn-body">
+                            <span class="menu-btn-line l1">
+                                <span class="menu-btn-line-item line-i"></span>
+                            </span>
+                            <span class="menu-btn-line l2">
+                                <span class="menu-btn-line-item line-i"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div id="menu-box" class="menu-content">
+        <nav>
+            <ul class="menu-container">
+                <a href="index.html">
+                    <li>WORKS</li>
+                </a>
+                <a href="about.html">
+                    <li>ABOUT ME</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>AIWA OTANI</h1>
+            <h2>I AM A UI/UX DESIGNER CURRENTLY BASED IN FUKUOKA, JAPAN</h2>
+        </div>
+    </div>
+    <section class="works">
+        <div class="gallery">
+            <div class="gallery-items">
+                <div class="gallery-item">
+                    <a href="geikoapp.html">
+                        <div class="img-wrap">
+                            <img src="img/geiko-img.jpg" alt="" class="gallery-image">
+                            <div class="img-description">
+                                <p>
+                                    <span class="title">
+                                        Geiko App Timetable
+                                    </span>
+                                    </br>
+                                    <span class="category">
+                                        UI/UX DESIGN
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="medmain.html">
+                        <div class="img-wrap">
+                            <img src="img/medteria-img.jpg" alt="" class="gallery-image">
+                            <div class="img-description">
+                                <p>
+                                    <span class="title">
+                                        Medteria LP
+                                    </span>
+                                    <br>
+                                    <span class="category">
+                                        UI/UX DESIGN
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="keen.html">
+                        <div class="img-wrap">
+                            <img src="img/keen-img.jpg" alt="" class="gallery-image">
+                            <div class="img-description">
+                                <p>
+                                    <span class="title">
+                                        Keen App
+                                    </span>
+                                    <br>
+                                    <span class="category">
+                                        UI/UX DESIGN + CODING
+                                    </span>
+                                </p>
+                            </div>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <a href="shabell.html">
+                    <div class="img-wrap">
+                        <img src="img/shabell-img.jpg" alt="" class="gallery-image">
+                        <div class="img-description">
+                            <p>
+                                <span class="title">
+                                    Shabell
+                                </span>
+                                <br>
+                                <span class="category">
+                                    UI/UX DESIGN
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-nav">
+            <ul class="footer-navlist">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

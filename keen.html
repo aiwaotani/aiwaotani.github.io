@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIWA OTANI PORTFOLIO | Keen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" href="img/icon-img.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-body header-left">
+                <h1 class="header-icon">
+                    <a class="header-icon-link" href="index.html">
+                        <img src="img/logo.svg" alt="" width="50" />
+                    </a>
+                </h1>
+            </div>
+            <div class="header-body header-right">
+                <nav class="header-nav">
+                    <ul class="header-nav-lists is-desktop">
+                        <li class="header-nav-list"><a class="header-nav-link" href="index.html"><span>WORKS</span> </a>
+                        </li>
+                        <li class="header-nav-list"><a class="header-nav-link" href="about.html"><span>ABOUT
+                                    ME</span></a></li>
+                    </ul>
+                </nav>
+                <button onclick="toggleMenu()" class="menu-btn">
+                    <div class="menu-btn-outer">
+                        <div class="menu-btn-body">
+                            <span class="menu-btn-line l1">
+                                <span class="menu-btn-line-item line-i"></span>
+                            </span>
+                            <span class="menu-btn-line l2">
+                                <span class="menu-btn-line-item line-i"></span>
+                            </span>
+
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div id="menu-box" class="menu-content">
+        <nav>
+            <ul class="menu-container">
+                <a href="index.html">
+                    <li>WORKS</li>
+                </a>
+                <a href="about.html">
+                    <li>ABOUT ME</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <section class="page-body">
+            <div class="inner">
+
+                <div class="container">
+                    <div class="main-text">
+                        <h1 class="title-text-keen">Keen App</h1>
+                        <p class="category-text">UI/UX DESIGN + CODING</p>
+                    </div>
+                    <img src="img/keen-img.jpg" width="770" height="513" alt="">
+                    <video src="img/My Movie.mov" width="770" height="513" controls></video>
+                    <img src="img/keenstage.png" width="770" height="513" alt="">
+                    <div class="about-text">
+                        <p>Keenは私が福岡にあるプログラミング学校に通っている間、卒業制作として作った作品です。</br>
+                            このサービスは生活習慣が乱れている人のために規則正しい生活習慣を身につけやすくするためのアプリです。
+                            フロントエンドはFigmaでデザインし実装に使った言語はReact Nativeです。バックエンドはFirebaseを使いました。
+                        </p>
+                    </div>
+                    <div class="about-text">
+                        <p>上の写真は学校で毎年行われるGGAの時の様子です。
+                        </p>
+                    </div>
+                    <div class="about-text">
+                        <p>GGA (Global Geek Audition)
+                            は、校内オーディションを経て選抜されたハイレベルなプロダクトのみが発表される場です。単なる卒業制作の発表にとどまることなく、投資先スタートアップを探す投資家や、
+                            エンジニア採用をする採用担当者とのマッチングの場でもあります。
+                        </p>
+                    </div>
+
+                    <div class="flex-parent">
+                        <div class="flex-item">
+                            <div class="flex-title">
+                                My Role
+                            </div>
+                            UI/UX DESIGN
+                            </br>
+                            WIREFRAMING
+                            </br>
+                            FRONTEND ENGINEERING
+                            </br>
+                            BACKEND ENGINIEERING
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-title">
+                                Client
+                            </div>
+                            N/A
+                            </br>
+                            <div class="flex-title">
+                                Context
+                            </div>
+                            SCHOOL PROJECT
+                        </div>
+                        <div class="flex-item">
+                            <div class="flex-title">
+                                Completed
+                            </div>
+                            NOVEMBER 2020
+                            </br>
+                            <div class="flex-title">
+                                Tools Used
+                            </div>
+                            FIGMA
+                            </br>
+                            REACT NATIVE
+                            </br>
+                            VISUAL STUDIO CODE
+                            </br>
+                            FIREBASE
+                        </div>
+                    </div>
+                </div>
+                <div class="final-dots">...</div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-nav">
+            <ul class="footer-navlist">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT ME</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
